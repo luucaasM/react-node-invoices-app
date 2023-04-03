@@ -1,8 +1,6 @@
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 import bcrypt from "bcrypt";
-import fsPromises from "fs/promises";
-import path from "path";
 import User from "../models/User.js";
 
 dotenv.config();
